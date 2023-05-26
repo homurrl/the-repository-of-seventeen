@@ -24,9 +24,29 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+Anchors are used to indicate the beginning or end of a match. The carat "^" anchor matches the beginning of the string, and the dollar sign "$" indicates the end.
+
+`^banana$`
+
 ### Quantifiers
 
+Quantifiers indicate how many times a character or group of characters should be matched. The most common quantifiers are:
+
+* matches zero or more times
++ matches one or more times
+? matches zero or one time
+
+Code snippet that matches any string that consists of one or more letters.
+
+`[a-zA-Z]+` 
+
 ### OR Operator
+
+The OR operator is used to match any of a set of characters. The OR operator is represented by the pipe character (|)
+
+code snippet
+
+'a-zA-Z|0-9'
 
 ### Character Classes
 
